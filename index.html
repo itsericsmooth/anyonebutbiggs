@@ -26,15 +26,14 @@
     <div class="column-2 w-col w-col-4">
       <h1 class="heading">ANYONE</h1>
       <h3 class="heading-4">Want to join in the fight?</h3>
-      <div class="form-block w-form">
-        <form id="email-form" name="email-form" data-name="Email Form" method="get"><label for="Name" class="field-label">Name</label><input type="text" class="text-field w-input" maxlength="256" name="Name" data-name="Name" placeholder="" id="Name" required=""><label for="email" class="field-label">Email Address</label><input type="email" class="text-field w-input" maxlength="256" name="email" data-name="Email" placeholder="" id="email" required=""><input type="submit" value="Submit" data-wait="Please wait..." class="submit-button w-button"></form>
-        <div class="w-form-done">
-          <div>Thank you! We&#x27;ll be in touch soon.</div>
-        </div>
-        <div class="w-form-fail">
-          <div>Oops! Something went wrong while submitting the form.</div>
-        </div>
-      </div>
+      <form method="post" name="myemailform" action="form-to-email.php">
+
+  <p class="field-label">Name:</p>	<input type="text" name="name">
+
+  <p class="field-label">Email Address:</p>	<input type="text" name="email">
+
+<input type="submit" value="Submit" class="submit">
+</form>
       <div class="div-block-2"></div>
     </div>
     <div class="column w-col w-col-8">
@@ -88,17 +87,14 @@
           <p class="paragraph">At Trump rally, January 15, 2022, Biggs invokes God before and after reference to &quot;Let&#x27;s Go Brandon.&quot;</p>
         </div>
       </a>
-      <div class="container-2 w-container">
-        <h3 class="heading-4">Want to join in the fight?</h3>
-        <div class="form-block w-form">
-          <form id="email-form" name="email-form" data-name="Email Form" method="get"><label for="email-2" class="field-label">Email Address</label><input type="email" class="text-field w-input" maxlength="256" name="email-2" data-name="Email 2" placeholder="" id="email-2" required=""><input type="submit" value="Submit" data-wait="Please wait..." class="submit-button w-button"></form>
-          <div class="w-form-done">
-            <div>Thank you! Your submission has been received!</div>
-          </div>
-          <div class="w-form-fail">
-            <div>Oops! Something went wrong while submitting the form.</div>
-          </div>
-        </div>
+      <form method="post" name="myemailform" action="form-to-email.php">
+
+  <p class="field-label">Name:</p>	<input type="text" name="name">
+
+  <p class="field-label">Email Address:</p>	<input type="text" name="email">
+
+<input type="submit" value="Submit" class="submit">
+</form>
       </div>
       <div class="wf-section">
         <h6 class="heading-5">Paid for by Clint Smith for Congress</h6>
