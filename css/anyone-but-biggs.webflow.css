@@ -199,6 +199,24 @@
   text-align: center;
 }
 
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+}
+
+.submit {
+  background-color: #bb5a5a;
+  color: white;
+  max-width: 200px;
+  padding: 7px;
+  margin-top: 15px;
+  border-style: none;
+  border-width: 1px;
+  border-color: #000;
+  background-color: #bb5a5a;
+  font-family: 'Crimson Pro', serif;
+}
 .field-label {
   margin-top: 24px;
   padding-top: 0px;
