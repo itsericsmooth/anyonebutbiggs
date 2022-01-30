@@ -205,6 +205,10 @@ form {
   max-width: 400px;
 }
 
+.mobile-form {
+  display: none;
+}
+
 .submit {
   background-color: #bb5a5a;
   color: white;
@@ -487,5 +491,11 @@ form {
   .container-2 {
     padding-left: 45px;
   }
+  
+  .mobile-form {
+    display: flex;
+    
+  .desktop-form {
+    display: none;
 }
 
